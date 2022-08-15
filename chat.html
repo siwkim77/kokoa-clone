@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>20:38</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fa-solid fa-angle-left fa-lg"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">김송현</h1>
+      </div>
+
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Monday, August 15, 2022</div>
+
+      <div class="message-row">
+        <img
+          src="https://scontent-ssn1-1.xx.fbcdn.net/v/t1.18169-9/11885292_854520497977527_2823762636330734955_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ylC-XJ5ZRtkAX-hdT6e&_nc_ht=scontent-ssn1-1.xx&oh=00_AT-WQOKZ9DxmzRbQW54GO1UGcwn745_mrqZ57lmbBL_9hA&oe=631F0B98"
+        />
+        <div class="message-row__content">
+          <span class="message__author">김송현</span>
+          <div class="message__info">
+            <span class="message__bubble">아 치킨 먹고싶다</span>
+            <span class="message__time">19:32</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">맛있으면 0칼로리</span>
+            <span class="message__time">19:40</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-grin fa-2x"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up fa-2x"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>외람되오나 화면을 좀 줄여주실 수 있을까요.</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/2e73fdbbef.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
